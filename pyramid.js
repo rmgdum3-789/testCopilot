@@ -6,4 +6,6 @@ function printPyramid(rows) {
     }
 }
 
-printPyramid(6);
+// Get number of rows from command-line argument, default to 6
+const numRows = parseInt(process.argv[2], 10) || 6;
+printPyramid(numRows);
