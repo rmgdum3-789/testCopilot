@@ -23,7 +23,3 @@ function countLetters(sentence) {
   return letterCounts; // Return the object containing letter counts
 }
 
-// Example usage:
-const mySentence = "Hello World, this is a test sentence.";
-const counts = countLetters(mySentence);
-console.log(counts);
